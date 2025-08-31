@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crush! Kitty! Crush! — Разрушай дом!</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Bangers&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Фон с видео -->
+  <div class="hero">
+    <video autoplay muted loop class="hero-video">
+      <source src="https://example.com/demo-video.mp4" type="video/mp4">
+    </video>
+    <div class="hero-content">
+      <h1>Кот. Дом. Хаос.</h1>
+      <p>Разрушай всё — и делай это с удовольствием!</p>
+<!--       <div class="buttons">
+        <a href="#" class="btn btn-play">Скачать на Google Play</a>
+        <a href="#" class="btn btn-apple">Скачать в App Store</a>
+      </div> -->
+    </div>
+  </div>
+
+  <!-- Навигация -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">Crush! Kitty! Crush!</a>
+      <ul class="nav-links">
+        <li><a href="#about">О игре</a></li>
+        <li><a href="#gallery">Галерея</a></li>
+        <li><a href="#news">Новости</a></li>
+        <li><a href="#support">Поддержка</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Описание игры -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>Что это за игра?</h2>
+      <p>Ты — кот, который ненавидит порядок. Твой дом — это поле боя. Царапай, ломай, прыгай в пикап и уезжай на ферму!</p>
+      <div class="features">
+        <div class="feature">
+          <h3>🐱 Реалистичный кот</h3>
+          <p>С мяуканьем, царапанием и "невинными" глазами после разрушений.</p>
+        </div>
+        <div class="feature">
+          <h3>🏠 Уникальные локации</h3>
+          <p>Кухни, фермы, балконы, офисы — везде можно устроить хаос.</p>
+        </div>
+        <div class="feature">
+          <h3>🎯 Смешные задания</h3>
+          <p>«Уничтожь все крема», «Сломай кондиционер», «Побег на пикапе».</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Галерея -->
+  <section id="gallery" class="section dark">
+    <div class="container">
+      <h2>Галерея хаоса</h2>
+      <div class="gallery">
+        <img src="https://via.placeholder.com/300x200/ff6b6b/ffffff?text=Кот+ломает+шкаф" alt="Скриншот 1">
+        <img src="https://via.placeholder.com/300x200/4ecdc4/ffffff?text=Побег+на+пикапе" alt="Скриншот 2">
+        <img src="https://via.placeholder.com/300x200/45b7d1/ffffff?text=Кот+в+костюме+мыши" alt="Скриншот 3">
+        <img src="https://via.placeholder.com/300x200/f9ca24/000000?text=Ферма+хаоса" alt="Скриншот 4">
+      </div>
+    </div>
+  </section>
+
+  <!-- Новости -->
+  <!-- Отзывы игроков -->
+<section id="reviews" class="section">
+  <div class="container">
+    <h2>Что говорят игроки</h2>
+    <div class="reviews-list">
+      <div class="review">
+        <div class="review-header">
+          <img src="https://i.pravatar.cc/80?img=1" alt="Аватар" class="avatar">
+          <div>
+            <strong>Марина, Москва</strong>
+            <div class="rating">★★★★★</div>
+          </div>
+        </div>
+        <p>«Самая смешная игра! Мой кот смотрит, как я играю, и явно одобряет. Уничтожила холодильник — теперь он там живёт.»</p>
+      </div>
+
+      <div class="review">
+        <div class="review-header">
+          <img src="https://i.pravatar.cc/80?img=6" alt="Аватар" class="avatar">
+          <div>
+            <strong>Алексей, Санкт-Петербург</strong>
+            <div class="rating">★★★★☆</div>
+          </div>
+        </div>
+        <p>«Не ожидал, что разрушать дом так весело. Особенно когда кот прыгает в пикап и уезжает. 10/10 за юмор.»</p>
+      </div>
+
+      <div class="review">
+        <div class="review-header">
+          <img src="https://i.pravatar.cc/80?img=9" alt="Аватар" class="avatar">
+          <div>
+            <strong>Даша, Казань</strong>
+            <div class="rating">★★★★★</div>
+          </div>
+        </div>
+        <p>«Обожаю задание "Уничтожь все крема". Кот выглядит так, будто он — косметолог-террорист. Смех до слёз!»</p>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Поддержка -->
+  <section id="support" class="section dark">
+    <div class="container">
+      <h2>Поддержка</h2>
+      <p>Есть вопрос? Напиши нам!</p>
+      <ul>
+        <li>Email: <a href="mailto:support@crushkittycrush.com">support@crushkittycrush.com</a></li>
+        <li>Telegram: <a href="https://t.me/CrushKittySupport">@CrushKittySupport</a></li>
+        <li>Instagram: <a href="https://instagram.com/CrushKittyGame">@CrushKittyGame</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Анимированный кот -->
+  <div class="cat" id="cat"></div>
+
+  <!-- Подвал -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Crush! Kitty! Crush! Все права защищены. Играй с умом (или без него).</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
