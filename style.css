@@ -81,7 +81,7 @@ a:hover {
 
 .hero-content {
   z-index: 1;
-  background: rgba(240, 128, 128, 0.85);
+  background: rgb(251 249 249);
   backdrop-filter: blur(10px);
   padding: 50px;
   border-radius: 20px;
@@ -92,7 +92,7 @@ a:hover {
 .hero-content p {
   font-size: 1.5rem;
   margin-bottom: 30px;
-  color: #fff;
+  color: #676767;
   font-weight: 300;
 }
 
